@@ -1,6 +1,6 @@
 class MechanicDirect(Mechanic):
     def __init__(self):
-        super.__init__()
+        super().__init__()
         self.__base_price = 100000
         self.__price_per_hour = 100000
         self.__speed = 60
